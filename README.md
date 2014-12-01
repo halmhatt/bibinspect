@@ -18,6 +18,18 @@ $ bibinspect search references.bib "hello"
 $ bibinspect --help
 ```
 
+## List
+List all entries in the file
+
+![List all entries in the file](img/list.png)
+
+## Search
+You can search with free text. `bibinspect search <file> "query"`. The first property that matches will be highlighted. 
+
+![Search free text](img/search-1.png)
+
+You could also search with the **sha1** hash of the entries key. This is often very short, which is nice. With 3-4 chars you should find the correct entry. This is especially usefull when using the `--short` flag of list, which only lists key and title, plus the short sha1 hash. 
+
 # Licence
 MIT
 
