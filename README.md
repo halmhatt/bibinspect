@@ -30,7 +30,9 @@ You can search with free text. `bibinspect search <file> "query"`. The first pro
 
 You could also search with the **sha1** hash of the entries key. This is often very short, which is nice. With 3-4 chars you should find the correct entry. This is especially usefull when using the `--short` flag of list, which only lists key and title, plus the short sha1 hash. 
 
-# Licence
+![Search by sha1 hash](img/search-2.png)
+
+# License
 MIT
 
 Im using the lib [bib2json](https://github.com/mayanklahiri/bib2json) by [mayanklahiri](https://github.com/mayanklahiri) which uses BSD license. 
